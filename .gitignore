@@ -1,0 +1,9 @@
+# Ignore Images
+.png
+.PNG
+.gif
+.GIF
+
+#Ignore word documents
+.docx
+.DOCX
