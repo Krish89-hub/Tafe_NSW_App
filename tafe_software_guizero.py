@@ -47,7 +47,7 @@ class HomeScreen:
         '''this will starting frame with green color'''
         self.frame_header = ttk.Frame(self.main_frame, width=704, height=250)
         '''login_image stores the logo of the app 'TAFE NSW'.'''
-        self.login_image = PhotoImage(file=r'login_screen.PNG')
+        self.login_image = PhotoImage(file=r'assets/login_screen.PNG')
         '''Images defined inside classes will be garbage collected outside of the class, so it is important
         to save the image inside a variable that will still exist outside of the class.'''
         self.login_image.img = self.login_image
