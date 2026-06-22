@@ -1,9 +1,13 @@
-# Ignore Images
-.png
-.PNG
-.gif
-.GIF
+# Images
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.gif
+*.GIF
 
-#Ignore word documents
-.docx
-.DOCX
+# Word documents
+*.docx
+*.DOCX

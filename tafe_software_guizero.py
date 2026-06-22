@@ -726,7 +726,7 @@ class Each_course_frame:
         self.fees_frame = ttk.Frame(self.course_frame, width=65, height=65)
         self.fees = ttk.Label(self.fees_frame, text=f"Fees:\n${self.sortby[number][4]}")
 
-        self.close_image = PhotoImage(file='close.PNG').subsample(2,2)
+        self.close_image = PhotoImage(file='assets/close.PNG').subsample(2,2)
         self.close_image.img = self.close_image
         self.button_close = ttk.Button(self.course_frame, image=self.close_image, command=lambda: self.close_course())
 
