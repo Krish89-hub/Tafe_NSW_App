@@ -145,7 +145,7 @@ class Welcome:
         self.header_welcome_frame = ttk.Frame(self.main_frame, width=704, height=250)
         self.welcome_tafe = ttk.Label(self.header_welcome_frame, text='Tafe NSW')
         self.welcome_label = ttk.Label(self.header_welcome_frame, text='Welcome!')
-        self.hamburger_menu_image = PhotoImage(file=r'hamburger_menu.GIF').subsample(2,2)
+        self.hamburger_menu_image = PhotoImage(file=r'assets/hamburger_menu.GIF').subsample(2,2)
         self.hamburger_menu_image.img = self.hamburger_menu_image
         self.hamburger_menu_button = tk.Button(self.header_welcome_frame, image=self.hamburger_menu_image.img,
                                                relief='flat', command=lambda: self.opening_hamburger_menu())
