@@ -382,12 +382,12 @@ class Edit_course:
         self.fees_label = ttk.Label(self.save_course, text='Fees(AUD):', style='label.TLabel')
         self.fees_entry = ttk.Entry(self.save_course, width=40, style='entry.TEntry')
 
-        self.cancel_image = PhotoImage(file=r'cancel.PNG').subsample(3,3)
+        self.cancel_image = PhotoImage(file=r'assets/cancel.PNG').subsample(3,3)
         self.cancel_image.img = self.cancel_image
         self.cancel_btn = ttk.Button(self.save_course, image=self.cancel_image.img,
                                      command=self.save_course.destroy)
 
-        self.save_image = PhotoImage(file=r'save.PNG').subsample(3,3)
+        self.save_image = PhotoImage(file=r'assets/save.PNG').subsample(3,3)
         self.save_image.img = self.save_image
         self.create_btn = ttk.Button(self.save_course, image=self.save_image.img,
                                      command=self.save_btn_pressed)
