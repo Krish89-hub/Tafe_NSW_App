@@ -213,7 +213,7 @@ class All_courses:
         first it calls a function (destroying_all_courses) and going back occurs in that function'''
         self.all_courses_tafe = ttk.Button(self.firstlevel_frame, text='Tafe NSW', command=self.destroying_All_courses)
         self.new_course_lebel = ttk.Label(self.firstlevel_frame, text='Add new course', font=('Segoe UI Symbol', 14))
-        self.add_course_image = PhotoImage(file=r'add_course.png').subsample(15,15)
+        self.add_course_image = PhotoImage(file=r'assets/add_course.png').subsample(15,15)
         self.add_course_image.img = self.add_course_image
         '''When user clicks on the add new button python will call a function'''
         self.add_course_btn = ttk.Button(self.firstlevel_frame, image=self.add_course_image.img,
