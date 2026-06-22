@@ -274,7 +274,7 @@ class Add_new_course:
         self.cancel_btn = ttk.Button(self.create_new_course, image=self.cancel_image.img,
                                      command=self.create_new_course.destroy)
 
-        self.create_image = PhotoImage(file=r'create.PNG').subsample(3,3)
+        self.create_image = PhotoImage(file=r'assets/create.PNG').subsample(3,3)
         self.create_image.img = self.create_image
         self.create_btn = ttk.Button(self.create_new_course, image=self.create_image.img,
                                      command=self.create_btn_pressed)
