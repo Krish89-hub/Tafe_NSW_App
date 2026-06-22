@@ -269,7 +269,7 @@ class Add_new_course:
         self.fees_label = ttk.Label(self.create_new_course, text='Fees(AUD):', style='label.TLabel')
         self.fees_entry = ttk.Entry(self.create_new_course, width=40, style='entry.TEntry')
 
-        self.cancel_image = PhotoImage(file=r'cancel.PNG').subsample(3,3)
+        self.cancel_image = PhotoImage(file=r'assets/cancel.PNG').subsample(3,3)
         self.cancel_image.img = self.cancel_image
         self.cancel_btn = ttk.Button(self.create_new_course, image=self.cancel_image.img,
                                      command=self.create_new_course.destroy)
