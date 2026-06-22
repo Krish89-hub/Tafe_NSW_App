@@ -730,7 +730,7 @@ class Each_course_frame:
         self.close_image.img = self.close_image
         self.button_close = ttk.Button(self.course_frame, image=self.close_image, command=lambda: self.close_course())
 
-        self.option_btn = PhotoImage(file=r'ellipsis.png').subsample(10,11)
+        self.option_btn = PhotoImage(file=r'assets/ellipsis.png').subsample(10,11)
         self.style.configure('option_menu.TButton', relief=FLAT)
         '''access will be True if they have logined in as staff. In that case user will have extra option to
         edit the course.'''
